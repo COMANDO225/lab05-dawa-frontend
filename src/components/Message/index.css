@@ -1,0 +1,36 @@
+.message__content__text {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.message__content__text.masna {
+	flex-direction: row-reverse;
+}
+
+.message__content__image img {
+	margin-top: -20px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.c__name {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.c__message {
+	padding: 12px;
+	width: 300px;
+	height: 60px;
+	overflow: auto;
+	background-color: #fff;
+	border-radius: 8px;
+	margin-top: -10px;
+}
+
+.message__content__text.masna .c__message {
+	background-color: #d9fdd3;
+}
